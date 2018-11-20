@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+
+{% block page_content %}
+<h1>请选择您要测试的字卡宝宝：{{ list_result }}</h1>
+
+{% endblock %}
+
+
+{% block page_content1  %}
+    <p>
+    <a href="{{ url_for('cai')}}">
+        开始游戏
+    </a>
+</p>
+{% endblock %}

@@ -1,0 +1,48 @@
+from flask_wtf import FlaskForm
+from wtforms import StringField,SubmitField,SelectField,SelectMultipleField,BooleanField
+from wtforms.validators import Required,Length
+
+
+class  CForm(FlaskForm):
+    a01 = BooleanField('三少木中门', default=True)
+    a02 = BooleanField('女四小马心',default=True)
+    a03 = BooleanField('九多日鸟花', default=True)
+    a04 = BooleanField('手子口米风', default=True)
+    a05 = BooleanField('火上王一土', default=True)
+    a06 = BooleanField('石水我工下', default=True)
+    a07 = BooleanField('爸早五飞大', default=True)
+    a08 = BooleanField('开牛六耳毛', default=True)
+    a09 = BooleanField('妈月头关七', default=True)
+    a10 = BooleanField('你东点高弟', default=True)
+    a11 = BooleanField('虫妹爷左八', default=True)
+    a12 = BooleanField('长右奶他竹', default=True)
+    a13 = BooleanField('老面鱼书哥', default=True)
+    a14 = BooleanField('后井草西二前', default=True)
+    a15 = BooleanField('北星南短姐金', default=True)
+    a16 = BooleanField('矮打走包刀心牙', default=True)
+    a17 = BooleanField('友红黑交夜贝', default=True)
+    a18 = BooleanField('方出国车白正', default=True)
+    a19 = BooleanField('云朋气久快子', default=True)
+    a20 = BooleanField('黄足吃身自壳', default=True)
+    a21 = BooleanField('狗地沙蓝林步', default=True)
+    a22 = BooleanField('鸡坐尖动空家', default=True)
+    a23 = BooleanField('兔外目勺笑冰', default=True)
+    a24 = BooleanField('叫电生虎雪弯', default=True)
+    a25 = BooleanField('河海屁角物树', default=True)
+    a26 = BooleanField('圆喝绿鸭针香', default=True)
+    a27 = BooleanField('通胖慢边吐许', default=True)
+    a28 = BooleanField('享满位瘦雷跑', default=True)
+    a29 = BooleanField('齿筷甜脚船盘架', default=True)
+    a30 = BooleanField('狐碗股猴蜗狸', default=True)
+    c01 = BooleanField('爱过兴好桥趣', default=True)
+    c02 = BooleanField('苹先现果后在', default=True)
+    c03 = BooleanField('合作米饭脸蛋', default=True)
+    c04 = BooleanField('来去钩对错视', default=True)
+    c05 = BooleanField('肉汤时间消灭', default=True)
+    c06 = BooleanField('棒球作业剩菜', default=True)
+    c07 = BooleanField('新旧优秀讨厌', default=True)
+    c08 = BooleanField('春夏秋冬冷热', default=True)
+    c09 = BooleanField('体育文章姨叔', default=True)
+
+    submit = SubmitField('确定选中')
+

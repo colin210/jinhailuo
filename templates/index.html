@@ -1,0 +1,12 @@
+{#{% extends "bootstrap/base.html" %}#}
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+{#<head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"></head>#}
+<div class="page-header" >
+    <h2><p class="text-center">宝宝识字游戏</p></h2>
+    <p class="text-center"><a  class="btn btn-default" href="{{ url_for('cho')}}"><font color="#FF0000">开始选字</font></a></p>
+</div>
+
+{% block page_content  %}{% endblock %}
+
