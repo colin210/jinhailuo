@@ -3,10 +3,14 @@
 
 
 {% block page_content %}
-    <form class="form-inline" >
+{#    <form class="form-inline" >#}
         <div class="col-md-5" >
-            {{ wtf.quick_form(form,form_type="horizontal",horizontal_columns=('lg',4,4))}}
+            {{ wtf.quick_form(form) }}
         </div>
-    </form>
+
+{#        <div class="col-md-5" >#}
+{#            {{ wtf.quick_form(form,form_type="horizontal",horizontal_columns=('lg',4,4))}}#}
+{#        </div>#}
+{#    </form>#}
 
 {% endblock page_content %}

@@ -6,7 +6,7 @@ from .forms import  CForm
 
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
-app.config['SECRET_KEY']='aa'
+app.config['SECRET_KEY']='aaaa'
 zikabaobao = []
 
 
@@ -109,7 +109,6 @@ def cho():
             zikabaobao = zikabaobao + a29
         if form.a30.data == True:
             zikabaobao = zikabaobao + a30
-
         return redirect(url_for('cai'))
     return render_template('choice.html',form=form)
 
